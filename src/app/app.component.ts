@@ -16,4 +16,11 @@ export class AppComponent {
   handleClick(){
     console.log("Someone clicked the 'Like' button on the template :-)")
   }
+
+   videos = [
+    {name: 'video one', liked: true},
+    {name: 'video two', liked: false}
+  ]
+
+  isShown: boolean = false
 }
