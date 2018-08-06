@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'My first Angular-application';
+  title = 'app';
+  video = {
+    title: 'Despacito',
+     views: 2,
+     liked: true
+  }
+
+  handleClick(){
+    console.log("Someone clicked the 'Like' button on the template :-)")
+  }
 }
