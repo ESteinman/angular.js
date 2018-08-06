@@ -5,11 +5,13 @@ import { AppComponent } from './app.component';
 import { CommentComponent } from './comment/comment.component';
 
 import { FormsModule } from '@angular/forms';
+import { SuggestionsComponent } from './suggestions/suggestions.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CommentComponent
+    CommentComponent,
+    SuggestionsComponent
   ],
   imports: [
     BrowserModule,
